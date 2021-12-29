@@ -1,7 +1,4 @@
 <?php
-
-use function PHPSTORM_META\type;
-
 $conn=mysqli_connect("localhost","root","","labfinal");
 $sql="SELECT * FROM `courses`";
 $result=mysqli_query($conn,$sql);
